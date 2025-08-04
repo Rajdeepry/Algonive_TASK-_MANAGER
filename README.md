@@ -33,6 +33,7 @@ task-manager/
 ├── styles.css         # UI styling and responsiveness
 ├── script.js          # Core logic (add/edit/delete/notify)
 └── README.md          # Project description
+
 📸 Screenshots
 <img width="940" height="912" alt="image" src="https://github.com/user-attachments/assets/6652d81f-6ef8-4b77-9fa0-da95bbf9abd2" />
 <img width="935" height="910" alt="Screenshot 2025-08-04 225230" src="https://github.com/user-attachments/assets/449c4ccf-64e8-4c55-8068-7422a96a9d7f" />
@@ -60,6 +61,7 @@ LocalStorage API – persistence
 Notification API – reminders
 
 🧪 How to Run Locally
+
 Clone this repository:
 
 
@@ -81,6 +83,9 @@ PWA support
 🧑‍💻 Author
 Rajdeep Choudhury
 💼 Frontend & Full-Stack Developer
+
 🔗 https://github.com/Rajdeepry•
-https://www.linkedin.com/in/rajdeep-choudhury-developer/
+
+
+-> https://www.linkedin.com/in/rajdeep-choudhury-developer/
 
