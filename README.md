@@ -62,9 +62,8 @@ Notification API – reminders
 🧪 How to Run Locally
 Clone this repository:
 
-bash
-Copy code
-git clone https://github.com/your-username/task-manager.git
+
+git clone https://github.com/Rajdeepry/Algonive_TASK-_MANAGER.git
 cd task-manager
 Open index.html in any browser .
 
@@ -82,5 +81,5 @@ PWA support
 🧑‍💻 Author
 Rajdeep Choudhury
 💼 Frontend & Full-Stack Developer
-🔗 GitHub • LinkedIn
+🔗 https://github.com/Rajdeepry• https://www.linkedin.com/in/rajdeep-choudhury-developer/
 
