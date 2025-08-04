@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Task Manager</h1>
+      <div class="controls">
+        <input type="text" id="search" placeholder="🔍 Search tasks..." />
+        <label class="theme-toggle">
+          🌙 <input type="checkbox" id="darkModeToggle" />
+        </label>
+      </div>
+    </header>
+
+    <form id="taskForm">
+      <input type="text" id="title" placeholder="Task title" required />
+      <textarea id="description" placeholder="Task description"></textarea>
+      <input type="datetime-local" id="dueDate" required />
+      <select id="priority">
+        <option value="Low">🟢 Low</option>
+        <option value="Medium">🟡 Medium</option>
+        <option value="High">🔴 High</option>
+      </select>
+      <button type="submit">Add Task</button>
+    </form>
+
+    <div class="filters">
+      <button data-filter="all" class="filter-btn active">All</button>
+      <button data-filter="completed" class="filter-btn">Completed</button>
+      <button data-filter="incomplete" class="filter-btn">Incomplete</button>
+    </div>
+
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

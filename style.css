@@ -1,0 +1,155 @@
+:root {
+  --bg: #ffffff;
+  --text: #222222;
+  --card: #f1f1f1;
+  --border: #cccccc;
+  --accent: #007bff;
+  --low: #d4edda;
+  --medium: #fff3cd;
+  --high: #f8d7da;
+}
+
+body.dark {
+  --bg: #121212;
+  --text: #f1f1f1;
+  --card: #1e1e1e;
+  --border: #444;
+  --accent: #1e90ff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  transition: background 0.3s, color 0.3s;
+}
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.theme-toggle input {
+  margin-left: 0.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+input, textarea, select, button {
+  padding: 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  background: var(--card);
+  color: var(--text);
+}
+
+button {
+  background-color: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+
+.filters {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.filter-btn {
+  flex: 1;
+  padding: 0.5rem;
+  border: none;
+  background-color: var(--card);
+  color: var(--text);
+  cursor: pointer;
+}
+
+.filter-btn.active {
+  border-bottom: 3px solid var(--accent);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.task {
+  background: var(--card);
+  padding: 1rem;
+  border: 1px solid var(--border);
+  margin-bottom: 1rem;
+  border-left: 5px solid var(--accent);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.task-info {
+  flex-grow: 1;
+  margin-right: 1rem;
+}
+
+.task h3 {
+  margin: 0;
+}
+
+.task p {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+.task .meta {
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.task .priority {
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+  margin-top: 0.5rem;
+}
+
+.task.low .priority {
+  background: var(--low);
+}
+
+.task.medium .priority {
+  background: var(--medium);
+}
+
+.task.high .priority {
+  background: var(--high);
+}
+
+.task-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.task-actions button {
+  padding: 0.3rem 0.5rem;
+}
