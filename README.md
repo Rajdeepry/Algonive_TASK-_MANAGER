@@ -84,7 +84,7 @@ PWA support
 Rajdeep Choudhury
 💼 Frontend & Full-Stack Developer
 
-🔗 https://github.com/Rajdeepry•
+🔗 https://github.com/Rajdeepry
 
 
 -> https://www.linkedin.com/in/rajdeep-choudhury-developer/
